@@ -13,25 +13,20 @@ def bot():
     resp = MessagingResponse()
     msg = resp.message()
     traffic = MichiBot()
-    response = MichiBot(incoming_msg)
-
+    response = traffic.bot_interaction(incoming_msg)
     responded = False
-#    if 'quote' in incoming_msg:
-#        # return a quote
-#        r = requests.get('https://api.quotable.io/random')
-#        if r.status_code == 200:
-#            data = r.json()
-#            quote = f'{data["content"]} ({data["author"]})'
-#        else:
-#            quote = 'I could not retrieve a quote at this time, sorry.'
-#        msg.body(quote)
-#        responded = True
     if type(response) is str:
-        # return a cat pic
-        msg.media()
+        # return menu options
+        msg.body(response)
+        responded = True
+    if type(response) is int:
+        # return selected media
+        msg.media(os.getcwd + response)
+#        MichiBot.counter = 0
+#        MichiBot.book_code = ""
         responded = True
     if not responded:
-        msg.body('I only know about famous quotes and cats, sorry!')
+        msg.body('Opción no valida')
     return str(resp)
 
 
