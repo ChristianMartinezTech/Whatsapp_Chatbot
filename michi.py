@@ -1,6 +1,7 @@
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 from models.base_module import MichiBot
+from models import resources
 import os
 import requests
 
@@ -20,10 +21,10 @@ def bot():
         msg.body(response)
         responded = True
     if type(response) is int:
-        # return selected media
-        msg.media(os.getcwd + response)
-#        MichiBot.counter = 0
-#        MichiBot.book_code = ""
+        media = resources.files(response)
+        msg.media(os.getcwd + media)
+        MichiBot.counter = 0
+        MichiBot.book_code = ""
         responded = True
     if not responded:
         msg.body('Opción no valida')

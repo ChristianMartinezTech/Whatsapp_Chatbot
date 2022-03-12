@@ -1,5 +1,4 @@
 """File Storing the responses to the user"""
-
 # First contact message
 first_message = """Hola, soy Michi, tengo libros para ti.
 ¿Cuéntame en que grado estás?
@@ -20,3 +19,6 @@ second_message = """¿Para qué asignatura buscas el libro?
 4. Ciencias Naturales
 5. Ciencias Sociales
 """
+def files(code):
+    if code == 11:
+        return("/filestorage/Resources/Grado 1°/")
