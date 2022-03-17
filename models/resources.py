@@ -1,3 +1,4 @@
+import os
 """File Storing the responses to the user"""
 # First contact message
 first_message = """Hola, soy Michi, tengo libros para ti.
@@ -21,4 +22,4 @@ second_message = """¿Para qué asignatura buscas el libro?
 """
 def files(code):
     if code == 11:
-        return("/filestorage/Resources/Grado 1°/Español/Lenguaje_estudiante_1.pdf")
+        return('')

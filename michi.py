@@ -22,7 +22,7 @@ def bot():
         responded = True
     if type(response) is int:
         media = resources.files(response)
-        msg.media(os.getcwd + media)
+        msg.media(media)
         MichiBot.counter = 0
         MichiBot.book_code = ""
         responded = True
@@ -32,4 +32,4 @@ def bot():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=80)
