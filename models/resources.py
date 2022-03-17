@@ -21,5 +21,7 @@ second_message = """¿Para qué asignatura buscas el libro?
 5. Ciencias Sociales
 """
 def files(code):
+    print("{:d} is in resources.files()".format(code))
     if code == 11:
-        return('')
+        print("{:d} is the selected code".format(code))
+        return('/filestorage/Resources/Grado_1/Español/Lenguaje_estudiante_1.pdf')
