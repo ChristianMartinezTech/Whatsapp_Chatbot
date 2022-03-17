@@ -6,7 +6,7 @@ In Ubuntu servers, the .ssh/ folder has the authorized_keys. Which is the file w
 ## Servers
 * Web-01: 54.226.168.231
 * Web-02: 34.201.82.203
-* lb: 34.139.237.184 (**This is a web server without Nginx**)
+* lb: 54.226.106.185
 
 ## Commands:
 * ssh -i ~/.ssh/id_rsa ubuntu@{server_id}

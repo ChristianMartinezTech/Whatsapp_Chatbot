@@ -6,7 +6,7 @@ Both Web servers have Niginx installed and inconjunction with Gunicorn, serve th
 ## Servers
 * Web-01: 54.226.168.231
 * Web-02: 34.201.82.203
-* lb: 34.139.237.184 (**This is a web server without Nginx**)
+* lb: 54.226.106.185
 * ssh -i ~/.ssh/id_rsa ubuntu@
 
 ## Commands:
