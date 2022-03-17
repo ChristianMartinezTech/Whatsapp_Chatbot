@@ -21,14 +21,19 @@ def bot():
         msg.body(response)
         responded = True
     if type(response) is int:
-        media = resources.files(response)
-        msg.media(os.getcwd + media)
+#        media = resources.files(response)
+        msg.media('https://f8aa-201-221-176-11.ngrok.io/{:d}'.format(response))
         MichiBot.counter = 0
         MichiBot.book_code = ""
         responded = True
     if not responded:
         msg.body('Opción no valida')
     return str(resp)
+
+@app.route('/<int:n>', strict_slashes=False)
+def resource(n):
+    media = resources.files(n)
+    return media
 
 
 if __name__ == '__main__':

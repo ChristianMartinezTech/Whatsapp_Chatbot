@@ -1,3 +1,4 @@
+import os
 """File Storing the responses to the user"""
 # First contact message
 first_message = """Hola, soy Michi, tengo libros para ti.
@@ -20,5 +21,7 @@ second_message = """¿Para qué asignatura buscas el libro?
 5. Ciencias Sociales
 """
 def files(code):
+    print("{:d} is in resources.files()".format(code))
     if code == 11:
-        return("/filestorage/Resources/Grado 1°/Español/Lenguaje_estudiante_1.pdf")
+        print("{:d} is the selected code".format(code))
+        return('/filestorage/Resources/Grado_1/Español/Lenguaje_estudiante_1.pdf')
