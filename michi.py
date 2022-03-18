@@ -4,12 +4,15 @@ from models.base_module import MichiBot
 from models import resources
 import os
 import requests
-
+"""Flask app to interact with the user trhough Twilio"""
 app = Flask(__name__)
 
 
 @app.route('/bot', methods=['POST'])
 def bot():
+    """Endpoint /bot
+    & method to interpretate user incomming messages to generate a code url
+    to retrieve the desired REA"""
     incoming_msg = request.values.get('Body', '')
     resp = MessagingResponse()
     msg = resp.message()
@@ -21,7 +24,8 @@ def bot():
         msg.body(response)
         responded = True
     if type(response) is int:
-        msg.media('https://7c3e-201-221-176-11.ngrok.io/{:d}'.format(response))
+        # return to twilio an accesible url (own server) to download content
+        msg.media('https://54.226.106.185/{:d}'.format(response))
         MichiBot.counter = 0
         MichiBot.book_code = ""
         responded = True
@@ -31,6 +35,8 @@ def bot():
 
 @app.route('/<int:n>', strict_slashes=False)
 def resource(n):
+    """Endpoint /<int:n>. Method resource useful to return the right file
+    based on the incoming code(int)"""
     print("incoming code:", n)
     media = resources.files(n)
     print(media)

@@ -1,5 +1,7 @@
 import os
-"""File Storing the responses to the user"""
+"""File Storing the responses to the user and also
+files() method which includes the path for each resource"""
+
 # First contact message
 first_message = """Hola, soy Michi, tengo libros para ti.
 ¿Cuéntame en que grado estás?
@@ -19,7 +21,9 @@ second_message = """¿Para qué asignatura buscas el libro?
 3. Ciencias Naturales
 4. Ciencias Sociales
 """
+
 def files(code):
+    """method to return the path of the media based on incoming code"""
     if code == 11:
         return('Resources/Grado_1/Espanol/Lenguaje_estudiante_1.pdf')
     if code == 12:
