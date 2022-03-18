@@ -16,12 +16,11 @@ first_message = """Hola, soy Michi, tengo libros para ti.
 second_message = """¿Para qué asignatura buscas el libro?
 1. Español/Lenguaje
 2. Matemáticas
-3. Inglés
-4. Ciencias Naturales
-5. Ciencias Sociales
+3. Ciencias Naturales
+4. Ciencias Sociales
 """
 def files(code):
     print("{:d} is in resources.files()".format(code))
     if code == 11:
         print("{:d} is the selected code".format(code))
-        return('/filestorage/Resources/Grado_1/Español/Lenguaje_estudiante_1.pdf')
+        return('Resources/Grado_1/Espanol/Lenguaje_estudiante_1.pdf')

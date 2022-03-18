@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, send_file, send_from_directory
 from twilio.twiml.messaging_response import MessagingResponse
 from models.base_module import MichiBot
 from models import resources
@@ -22,7 +22,7 @@ def bot():
         responded = True
     if type(response) is int:
 #        media = resources.files(response)
-        msg.media('https://f8aa-201-221-176-11.ngrok.io/{:d}'.format(response))
+        msg.media('https://9a6d-201-221-176-11.ngrok.io/{:d}'.format(response))
         MichiBot.counter = 0
         MichiBot.book_code = ""
         responded = True
@@ -32,9 +32,10 @@ def bot():
 
 @app.route('/<int:n>', strict_slashes=False)
 def resource(n):
+    print("incoming code:", n)
     media = resources.files(n)
-    return media
-
+    print(media)
+    return send_from_directory(directory='file_storage', path=str(media))
 
 if __name__ == '__main__':
     app.run()
