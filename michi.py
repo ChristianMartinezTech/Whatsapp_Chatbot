@@ -21,8 +21,7 @@ def bot():
         msg.body(response)
         responded = True
     if type(response) is int:
-#        media = resources.files(response)
-        msg.media('https://9a6d-201-221-176-11.ngrok.io/{:d}'.format(response))
+        msg.media('https://1df7-201-221-176-11.ngrok.io/{:d}'.format(response))
         MichiBot.counter = 0
         MichiBot.book_code = ""
         responded = True
