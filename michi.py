@@ -43,4 +43,4 @@ def resource(n):
     return send_from_directory(directory='file_storage', path=str(media))
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
