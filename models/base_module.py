@@ -29,7 +29,7 @@ class MichiBot():
                 return second_message  # definir jerarquía segun file_storage
             else:
                 MichiBot.counter -= 1
-                return first_message
+                return "Mensaje incorrecto, selecciona una opción válida.\n" + first_message
         if self.counter == 3:
                 # method for 3rd message
             if len(message) == 1 and (ord(message) >= 49 and ord(message) <= 52):
@@ -37,4 +37,4 @@ class MichiBot():
                 return int(MichiBot.book_code)
             else:
                 MichiBot.counter -= 1
-                return second_message
+                return "Mensaje incorrecto, selecciona una opción válida.\n" + second_message
