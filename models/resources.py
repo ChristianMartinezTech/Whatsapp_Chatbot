@@ -47,7 +47,7 @@ def files(code):
     if code == 41:
         return('Resources/Grado_4/Espanol/LG_Grado04_01.pdf')
     if code == 42:
-        return('Resources/Grado_4/Matematicas/MT_Grado05_01.pdf')
+        return('Resources/Grado_4/Matematicas/MT_Grado04_01.pdf')
     if code == 43:
         return('Resources/Grado_4/Ciencias_Naturales/CN_Grado04_01.pdf')
     if code == 44:
