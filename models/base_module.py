@@ -15,7 +15,8 @@ class MichiBot():
         MichiBot.counter += 1
 
     def bot_interaction(self, message):
-        """"""
+        """Here the incoming message is validated acoording to 'counter', this is used
+        to keep track and logic within user/bot interaction"""
         if self.counter == 1:
             # method for 1st mesage
             if message is None:
@@ -31,7 +32,7 @@ class MichiBot():
                 MichiBot.counter -= 1
                 return "Mensaje incorrecto, selecciona una opción válida.\n" + first_message
         if self.counter == 3:
-                # method for 3rd message
+            # method for 3rd message
             if len(message) == 1 and (ord(message) >= 49 and ord(message) <= 52):
                 MichiBot.book_code += message
                 return int(MichiBot.book_code)
