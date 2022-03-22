@@ -37,10 +37,13 @@ def bot():
 def resource(n):
     """Endpoint /<int:n>. Method resource useful to return the right file
     based on the incoming code(int)"""
-    print("incoming code:", n)
     media = resources.files(n)
-    print(media)
     return send_from_directory(directory='file_storage', path=str(media))
+
+@app.route('/')
+def welcome():
+    """Landing page"""
+    return "<h1 style='color:red'>Hola!\nSoy Michi!</h1>"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
