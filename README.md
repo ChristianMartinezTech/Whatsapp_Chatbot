@@ -14,12 +14,6 @@ The users of the WhatsApp bot are the parents of children in Preschool or Primar
 
 
 
-## Team:
-- Christian Martinez:  **DevOps Developer**
-- Yael Uribe: **Backend Developer**
-- Laura Cadavid: **Content Curator and Backend Developer**
-- Ibethe Ramada: **Content Curator and DevOps Developer**
-
 #### _Technical Risks what could have:_
 
 - **HTTP Requests overload**: Our server would have to support too many requests, so a solution could be to optimize this by adding another server that supports requests that overload our first server.
@@ -53,6 +47,13 @@ Easy entry barrier: WhatsApp is widely used in Latam. Almost everyone with a pho
 Ease of use: very clear and simple instructions.
 
 Low Internet consumption: WhatsApp is the main communication channel in Colombia (With Facebook). There’s free internet.
+
+
+## Team:
+- Christian Martinez:  **DevOps Developer**
+- Yael Uribe: **Backend Developer**
+- Laura Cadavid: **Content Curator and Backend Developer**
+- Ibethe Ramada: **Content Curator and DevOps Developer**
 
 _________
 ###### This portfolio project is not solving issues like providing a mobile phone, improving ISP services or infrastructure. Also, it’s oriented towards specific assignments and grades, it doesn’t cover all Preschool nor Elementary school assignments.
