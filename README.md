@@ -21,7 +21,7 @@ The users of the WhatsApp bot are the parents of children in Preschool or Primar
 
 #### _Non-technical Risks what could have:_
 
-**Twilio Membership Expiration**: The platform we will use for our chatbot is a paid platform, at the time we started this project we had a balance of $65 (sixty-five dollars) which was given to us by the GitHub Education resource. The solution is to pay to continue with the project.
+- **Twilio Membership Expiration**: The platform we will use for our chatbot is a paid platform, at the time we started this project we had a balance of $65 (sixty-five dollars) which was given to us by the GitHub Education resource. The solution is to pay to continue with the project.
 
 ## Infrastructure:
 - According to documentation, we chose to use Feature Branching. Being BackEnd and DevOps the starting branches and as the portfolio project carries on, additional branches may be created as new features are needed. Also the Merging strategy we chose to use is Manual Code Review and Merge.
