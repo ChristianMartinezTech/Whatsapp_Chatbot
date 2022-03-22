@@ -25,7 +25,7 @@ def bot():
         responded = True
     if type(response) is int:
         # return to twilio an accesible url (own server) to download content
-        msg.media('https://54.226.106.185/{:d}'.format(response))
+        msg.media('http://mychrismartinez.tech/{:d}'.format(response))
         MichiBot.counter = 0
         MichiBot.book_code = ""
         responded = True
