@@ -1,8 +1,8 @@
 import os
 from .resources import first_message, second_message
 """
-Module base_module. Here are the Michibot Operations to return the rigth content
-to user
+Module base_module. Here are the Michibot Operations to return the rigth
+content to user
 """
 
 
@@ -15,8 +15,9 @@ class MichiBot():
         MichiBot.counter += 1
 
     def bot_interaction(self, message):
-        """Here the incoming message is validated acoording to 'counter', this is used
-        to keep track and logic within user/bot interaction"""
+        """Here the incoming message is validated acoording to 'counter',
+        this is used to keep track and check on logic within user/bot
+        interaction"""
         if self.counter == 1:
             # method for 1st mesage
             if message is None:
@@ -25,7 +26,8 @@ class MichiBot():
             return first_message
         elif self.counter == 2:
             # method for 2nd message
-            if len(message) == 1 and (ord(message) >= 49 and ord(message) <= 53):  # confirmar los números
+            if len(message) == 1 and (ord(message) >= 49
+               and ord(message) <= 53):
                 MichiBot.book_code += message
                 return second_message  # definir jerarquía segun file_storage
             else:
@@ -33,7 +35,8 @@ class MichiBot():
                 return "Mensaje incorrecto, selecciona una opción válida.\n" + first_message
         if self.counter == 3:
             # method for 3rd message
-            if len(message) == 1 and (ord(message) >= 49 and ord(message) <= 52):
+            if len(message) == 1 and (ord(message) >= 49
+               and ord(message) <= 52):
                 MichiBot.book_code += message
                 return int(MichiBot.book_code)
             else:

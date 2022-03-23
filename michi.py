@@ -33,6 +33,7 @@ def bot():
         msg.body('Opción no valida')
     return str(resp)
 
+
 @app.route('/<int:n>', strict_slashes=False)
 def resource(n):
     """Endpoint /<int:n>. Method resource useful to return the right file
@@ -40,10 +41,12 @@ def resource(n):
     media = resources.files(n)
     return send_from_directory(directory='file_storage', path=str(media))
 
+
 @app.route('/')
 def welcome():
     """Landing page"""
-    return "<h1 style='color:red'>Hola!\nSoy Michi!</h1>"
+    return "<h1 style='color:red'>Hola, Soy Michi!</h1>"
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')

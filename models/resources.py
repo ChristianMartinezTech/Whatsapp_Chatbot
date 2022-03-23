@@ -11,8 +11,8 @@ first_message = """Hola, soy Michi, tengo libros para ti.
 4. 4° Cuarto
 5. 5° Quinto"""
 
-# Choice option, we'll need to further develop this in the */base_module.py file
-# choice = "Elegíste {}".format()
+# Choice option, we'll need to further develop this in the */base_module.py
+# file, choice = "Elegíste {}".format()
 
 # User picking the subject
 second_message = """¿Para qué asignatura buscas el libro?
@@ -21,6 +21,7 @@ second_message = """¿Para qué asignatura buscas el libro?
 3. Ciencias Naturales
 4. Ciencias Sociales
 """
+
 
 def files(code):
     """method to return the path of the media based on incoming code"""
