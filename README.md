@@ -14,12 +14,6 @@ The users of the WhatsApp bot are the parents of children in Preschool or Primar
 
 
 
-## Team:
-- Christian Martinez:  **DevOps Developer**
-- Yael Uribe: **Backend Developer**
-- Laura Cadavid: **Content Curator and Backend Developer**
-- Ibethe Ramada: **Content Curator and DevOps Developer**
-
 #### _Technical Risks what could have:_
 
 - **HTTP Requests overload**: Our server would have to support too many requests, so a solution could be to optimize this by adding another server that supports requests that overload our first server.
@@ -27,7 +21,7 @@ The users of the WhatsApp bot are the parents of children in Preschool or Primar
 
 #### _Non-technical Risks what could have:_
 
-**Twilio Membership Expiration**: The platform we will use for our chatbot is a paid platform, at the time we started this project we had a balance of $65 (sixty-five dollars) which was given to us by the GitHub Education resource. The solution is to pay to continue with the project.
+- **Twilio Membership Expiration**: The platform we will use for our chatbot is a paid platform, at the time we started this project we had a balance of $65 (sixty-five dollars) which was given to us by the GitHub Education resource. The solution is to pay to continue with the project.
 
 ## Infrastructure:
 - According to documentation, we chose to use Feature Branching. Being BackEnd and DevOps the starting branches and as the portfolio project carries on, additional branches may be created as new features are needed. Also the Merging strategy we chose to use is Manual Code Review and Merge.
@@ -53,6 +47,17 @@ Easy entry barrier: WhatsApp is widely used in Latam. Almost everyone with a pho
 Ease of use: very clear and simple instructions.
 
 Low Internet consumption: WhatsApp is the main communication channel in Colombia (With Facebook). There’s free internet.
+
+
+## Team:
+- Christian Martinez:  **DevOps Developer**<a href = 'https://twitter.com/CrismartineE'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg"/></a>
+<a href = 'https://github.com/ChristianMartinezTech'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
+- Yael Uribe: **Backend Developer**<a href = 'https://www.twitter.com/@NeisseriaGi'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg"/></a>
+<a href = 'https://github.com/YaelUribe'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
+- Laura Cadavid: **Content Curator and Backend Developer**<a href = 'https://twitter.com/CanelaCadavid'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg"/></a>
+<a href = 'https://github.com/LauraAlejandra2021'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
+- Ibethe Ramada: **Content Curator and DevOps Developer** <a href = 'https://www.twitter.com/@AkimashitaGa'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg"/></a>
+<a href = 'https://github.com/IbetheRamada'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
 
 _________
 ###### This portfolio project is not solving issues like providing a mobile phone, improving ISP services or infrastructure. Also, it’s oriented towards specific assignments and grades, it doesn’t cover all Preschool nor Elementary school assignments.
