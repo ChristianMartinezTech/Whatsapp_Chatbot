@@ -36,7 +36,7 @@ body{
 .format{
     width:180px;
     padding: 10px 10px;
-
+   
 }
 
 iframe{
@@ -50,4 +50,19 @@ iframe{
     width: 300px;
     margin-top: 150px;
     justify-content: center;
+}
+
+#text-dev{
+    width: 300px;
+    margin-top: 150px;
+    justify-content: center;
+}
+#body_team{
+    background-color: #000000;
+
+}
+
+.Team{
+    margin-top: 100px;
+
 }
