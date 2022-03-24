@@ -61,7 +61,11 @@ iframe{
     background-color: #000000;
 
 }
-
+#Video{
+    width:300px;
+    padding-left: 525px;
+    margin-top: 0;
+}
 .Team{
     margin-top: 100px;
 
