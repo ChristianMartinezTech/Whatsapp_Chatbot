@@ -1,0 +1,53 @@
+body{
+    background-color: #ff8200;
+}
+
+#logo{
+    width: 600px;
+}
+.Alinear_flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+#hiperv{
+    height:50px;
+}
+.Text_paragraph{
+    color:#ffffff;
+    font-family: cursive;
+    font-size: 150%;
+}
+
+.Text_descrip{
+    color:#ffffff;
+    font-family:cursive ;
+    font-size: 150%
+    
+
+}
+.Button{
+    bottom: 100px;
+    height: 100px;
+    
+}
+
+.format{
+    width:180px;
+    padding: 10px 10px;
+
+}
+
+iframe{
+    width:560;
+    height:315;
+    padding-top: 100px;
+    padding: 500px 500px;
+}
+
+#text_caract{
+    width: 300px;
+    margin-top: 150px;
+    justify-content: center;
+}
