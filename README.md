@@ -1,4 +1,5 @@
 # _Aprende con Michi 🐱_ - Capstone proyect
+![](https://fv9-2.failiem.lv/thumb_show.php?i=kt7dpd67g&view)
 
 ------------
 
