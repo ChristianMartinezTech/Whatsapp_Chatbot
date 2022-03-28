@@ -1,4 +1,4 @@
-# _Aprende con Michi 🐱_ - Capstone proyect
+# _Aprende con Michi 🐱_ 
 ![](https://fv9-2.failiem.lv/thumb_show.php?i=kt7dpd67g&view)
 
 ------------
@@ -47,17 +47,6 @@ Easy entry barrier: WhatsApp is widely used in Latam. Almost everyone with a pho
 Ease of use: very clear and simple instructions.
 
 Low Internet consumption: WhatsApp is the main communication channel in Colombia (With Facebook). There’s free internet.
-
-
-## Team:
-- Christian Martinez:  **DevOps Developer**<a href = 'https://twitter.com/CrismartineE'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg"/></a>
-<a href = 'https://github.com/ChristianMartinezTech'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
-- Yael Uribe: **Backend Developer**<a href = 'https://www.twitter.com/@NeisseriaGi'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg"/></a>
-<a href = 'https://github.com/YaelUribe'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
-- Laura Cadavid: **Content Curator and Backend Developer**<a href = 'https://twitter.com/CanelaCadavid'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg"/></a>
-<a href = 'https://github.com/LauraAlejandra2021'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
-- Ibethe Ramada: **Content Curator and DevOps Developer** <a href = 'https://www.twitter.com/@AkimashitaGa'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg"/></a>
-<a href = 'https://github.com/IbetheRamada'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
 
 _________
 ###### This portfolio project is not solving issues like providing a mobile phone, improving ISP services or infrastructure. Also, it’s oriented towards specific assignments and grades, it doesn’t cover all Preschool nor Elementary school assignments.
